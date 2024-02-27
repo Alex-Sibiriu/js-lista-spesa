@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: cornflowerblue;
+  height: 100vh;
+}
+
+.bg_green_circle {
+  box-shadow: 0 0 40px 10px green;
+  background: radial-gradient(ellipse, yellowgreen, green);   
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+ul {
+  max-width: 850px;
+}
+
+li:hover {
+  filter:  brightness(1.5);
+  cursor: pointer;
+}
+
+li:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f07a';
+  margin-right: 10px;
+}
+
+.product_clicked {
+  text-decoration: underline;
+  color: rgb(89, 130, 207);
+}
+
+.txt_dark {
+  color: #555;
+}
